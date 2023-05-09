@@ -1,8 +1,6 @@
 { pkgs }: {
   deps = [
-    pkgs.poetry
-    pkgs.busybox-sandbox-shell
-    pkgs.nano
+pkgs.nano
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
